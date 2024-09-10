@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .t{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .a{
+            margin-top: 70px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        button{
+            font-size: 30px;
+            margin-top: 1px;
+            height: 110px;
+            width: 150px;
+        }
+        #id input{
+            text-align: center;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-size: 30px;
+            padding-top: 20px;
+        }
+        #checkbox{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="t">
+        <div id="img">
+            <img src="http://koreaisacademy.com/renewal2016/img/mainNew/it_logo_sp.png"/>
+        </div>
+        <div class="a">
+            <div id="id">
+                <input type="text" placeholder="아이디"/><br/>
+                <input type="password" placeholder="비밀번호"/><br/>
+            </div>	
+            <div>
+                <button>로그인</button>
+            </div>
+        </div>
+        <div></div>
+        <div>
+            <input id="checkbox" type="checkbox">아이디 저장
+        </div>
+    </div>
+
+</body>
+</html>
