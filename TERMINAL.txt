@@ -1,0 +1,8 @@
+TERMINAL---------------------
+mkdir 	파일생성		ㅣ
+cd 	파일이동		ㅣ
+npm start npm 시작	ㅣ
+rm -rf 	파일 삭제		ㅣ
+npm install npm설치	ㅣ
+npm install --force 강제설치	ㅣ
+--------------------------------
